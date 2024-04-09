@@ -22,7 +22,7 @@
 
 #dados-andreza ul li {
   color: #111;
-  
+
 }
 
 
@@ -495,9 +495,11 @@ section {
 --------------------------------------------------------------*/
 .about .content {
   padding: 30px 0;
- 
+
 }
-.about, .about .conteiner {
+
+.about,
+.about .conteiner {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
@@ -626,8 +628,10 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.resume{
+.resume {
   padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
 }
 
 .resume .resume-item {
@@ -692,6 +696,12 @@ section {
   border-radius: 8px;
   text-align: center;
   z-index: 1;
+}
+
+.services {
+  padding-top: 0;
+  padding-bottom: 0;
+
 }
 
 .services .icon-box::before {
@@ -1046,6 +1056,13 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  padding-top: 0;
+}
+#t-email{
+  margin-top:1rem;
+}
+
 .contact .contact-about h3 {
   font-size: 36px;
   margin: 0 0 10px 0;
