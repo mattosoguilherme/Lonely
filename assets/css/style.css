@@ -6,6 +6,26 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+#dados-andreza ul li {
+  list-style-type: none;
+}
+
+#dados-andreza ul {
+  padding: 0.2rem;
+}
+
+#dados-andreza ul li span {
+  font-weight: bold;
+  color: #730C02;
+}
+
+#dados-andreza ul li {
+  color: #111;
+  
+}
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -475,6 +495,11 @@ section {
 --------------------------------------------------------------*/
 .about .content {
   padding: 30px 0;
+ 
+}
+.about, .about .conteiner {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .about .content h3 {
@@ -599,6 +624,10 @@ section {
   margin-bottom: 20px;
   color: #730C02;
   font-family: "Poppins", sans-serif;
+}
+
+.resume{
+  padding-top: 0;
 }
 
 .resume .resume-item {
